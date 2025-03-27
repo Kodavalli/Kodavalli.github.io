@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sathwika Kodavalli</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E1F5FE;
+        }
+        header {
+            background-color: #E91E63;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+        header p {
+            font-size: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #C2185B;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #F8BBD0;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+            background: white;
+            margin: 30px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(41, 182, 246, 0.2);
+        }
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #E91E63;
+        }
+        .skills-list, .projects-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skill-item, .project-item {
+            background-color: #B3E5FC;
+            box-shadow: 0 0 10px #4FC3F7;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .skill-item:hover, .project-item:hover {
+            transform: scale(1.05);
+        }
+        .project-item a {
+            display: inline-block;
+            background-color: #0288D1;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .project-item a:hover {
+            background-color: #01579B;
+        }
+        footer {
+            background-color: #E91E63;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+        
+        /* Center contact details */
+        #contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .project-item {
+            margin: 15px 0;
+            width: 80%;
+            max-width: 500px; /* Controls the width of each contact item */
+        }
+        .project-item h3 {
+            font-size: 20px;
+            color: #E91E63;
+        }
+        .project-item p, .project-item a {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sathwika Kodavalli</h1>
+        <p>Web Developer | Designer | Creator</p>
+    </header>
+   
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Sathwika Kodavalli, a passionate web developer with a love for creating beautiful and functional websites. I specialize in front-end development and design, aiming to make user-friendly interfaces that are also visually appealing.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="skills">
+        <h2>Education</h2>
+        <div class="skills-list">
+            <div class="skill-item">
+                <h3>B.Tech</h3>
+                <p>Sasi Institute of Technology and Engineering</p>
+                <p>2023-2027</p>
+                <p>CGPA:7.9</p>
+            </div>
+            <div class="skill-item">
+                <h3>Intermediate</h3>
+                <p>Vidya Vikas Junior College</p>
+                <p>2021-2023</p>
+                <p>Marks:880</p>
+            </div>
+            <div class="skill-item">
+                <h3>SSC</h3>
+                <p>Auxilium E.M High School</p>
+                <p>2021</p>
+                <p>Marks: 596</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill-item">
+                <h3>HTML</h3>
+                <p>Experienced with structuring webpages with semantic HTML.</p>
+            </div>
+            <div class="skill-item">
+                <h3>CSS</h3>
+                <p>Skilled in designing responsive and accessible layouts with CSS.</p>
+            </div>
+            <div class="skill-item">
+                <h3>C</h3>
+                <p>Focusing on low-level memory management, performance, and system-level functionality.</p>
+            </div>
+            <div class="skill-item">
+                <h3>Python</h3>
+                <p>Skilled in designing efficient and maintainable code with Python, focusing on functionality, performance, and readability.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-item">
+                <h3>Portfolio</h3>
+                <p>A fully responsive and creative student webpage using HTML and CSS. Designed and developed to showcase my skills and projects in a visually appealing way.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Calculator</h3>
+                <p>A simple and interactive calculator built with HTML, CSS, and JavaScript. Performs basic arithmetic operations, including addition, subtraction, multiplication, division, and modulus.</p>
+                <a href="https://Kodavalli.github.io/caluculator" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="project-item">
+            <h3>Phone Number</h3>
+            <p>9030898087</p>
+        </div>
+        <div class="project-item">
+            <h3>Email</h3>
+            <a href="mailto:sathwika.kodavalli@sasi.ac.in">sathwika.kodavalli@sasi.ac.in</a>
+        </div>
+        <div class="project-item">
+            <h3>LinkedIn</h3>
+            <p><a href="https://www.linkedin.com/in/sathwika-kodavalli-8503622a1/" target="_blank">LinkedIn</a></p>
+        </div>
+        <div class="project-item">
+            <h3>GitHub</h3>
+            <p><a href="https://github.com/Kodavalli" target="_blank">GitHub</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Sathwika Kodavalli. All rights reserved.</p>
+    </footer>
+</body>
+</html>
